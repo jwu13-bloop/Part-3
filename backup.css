@@ -1,0 +1,119 @@
+
+body {
+    font-family: 'Georgia', serif;
+    color: #ffffff;
+    margin: 2%;
+    padding: 5%;
+    background: linear-gradient(195deg, #ffffff, #000000); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1, h2, h3 {
+    font-family: 'Verdana', sans-serif;
+    color: #ffffff;
+    text-align: left;
+}
+
+
+
+.small {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgb#665f5f;
+}
+
+.middle {
+    font-size: 60px;
+    font-weight: 600;
+    color: rgb#979797;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+.middle2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #ff7f50;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.large {
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    font-family: fantasy;
+    padding-left: 30px;
+}
+
+.textbox, .image-box {
+    width: 800px;
+    height:auto;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: rgb#b27171;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.New {
+    box-sizing: content-box;
+    background-color: #000000;
+    padding: 80px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    border-radius: 2em;
+    border: 2px solid #ff7f50;
+}
+
+
+.hover-text {
+    color: #ffffff;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.hover-text:hover {
+    color: #ff7f50;
+}
+
+.row {
+    display: flex;              
+    justify-content: space-around; 
+    align-items: flex-start;     
+    flex-wrap: wrap;             
+    gap: 30px;                  
+    margin: 50px 0;
+}
+.frame, .donut, .pork {
+    width: 300px;
+    padding: 20px;
+    background-color: #8d8d8d;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+    margin: 40px auto;
+    text-align: left;
+    line-height: 1.6;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.frame:hover, .donut:hover, .pork:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.15);
+}
+
+.animate-image, .animate-image2 {
+    transition: transform 0.4s ease;
+}
+
+.animate-image:hover {
+    transform: translateY(-15px);
+}
+
+.animate-image2:hover {
+    transform: translateX(15px);
+}
