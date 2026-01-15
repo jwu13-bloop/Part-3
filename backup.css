@@ -7,6 +7,16 @@ body {
     background: linear-gradient(195deg, #ffffff, #000000); 
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+}
+
+.outside {
+    box-sizing: content-box;
+    padding: 80px;
+    width: auto;
+    height: auto;
+    border-radius: 5em;
+    border: 2px dotted #ffffff;
 }
 
 h1, h2, h3 {
@@ -115,4 +125,13 @@ h1, h2, h3 {
 
 .animate-image2:hover {
     transform: translateX(15px);
+}
+
+.food {
+    position: relative;
+    z-index: 3;
+    max-width: 18%;
+    padding:30px;
+    margin: 20px auto;
+    display: block;
 }
